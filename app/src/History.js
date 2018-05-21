@@ -16,6 +16,7 @@ export default class Main extends Component {
   render() {
     return (
       <MapView zoomLevel={12} style={StyleSheet.absoluteFill}>
+        {/*{注释掉此行再试试}*/}
         <MapView.MultiPoint
           image="point"
           points={this._points}
